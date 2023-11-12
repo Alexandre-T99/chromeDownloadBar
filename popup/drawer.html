@@ -1,0 +1,32 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="drawer.css">
+</head>
+
+<body>
+  <button id="demo" onclick="myFunction()" style="width:100%; height:95%">Show bar</button>
+
+  <div id="modal">
+    <button id="show-all" onclick="openDownloadsTab()">Mostrar tudo</button>
+    <button id="hide-bar" onclick="hideDownloadBar()">
+      X
+    </button>
+  </div>
+
+  <script>
+    function myFunction() {
+      document.getElementById("modal").style.display = "block";
+    }
+
+    function openDownloadsTab() {
+      /*window.open('chrome://downloads/', '_blank');*/
+    }
+
+    function hideDownloadBar() {
+      document.getElementById("modal").style.display = "none";
+    }
+  </script>
+</body>
+
+</html>
