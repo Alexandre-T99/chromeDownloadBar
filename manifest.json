@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Download bar",
+  "description": "Bring the real download experience back",
+  "version": "1.0.0",
+  "action": {
+    "default_popup": "popup/test.html",
+    "default_icon": "icons/icon.png"
+  },
+  "permissions": [
+    "downloads"
+  ]
+}

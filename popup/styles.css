@@ -1,0 +1,31 @@
+body {
+    margin: 0px;
+}
+
+#modal {
+    display: block;
+    position: absolute;
+    height: 5%;
+    width: 100%;
+    background-color: rgb(53, 53, 53);
+    bottom: 0;
+}
+
+#show-all {
+    display: none;
+    color: rgb(130, 188, 252);
+    background-color: inherit;
+    border: 0px;
+    border-color: rgb(64, 71, 75);
+}
+
+#hide-bar {
+    position: relative;
+    color: whitesmoke;
+    background-color: inherit;
+    aspect-ratio: 1/1;
+    height: 50%;
+    top: 25%;
+    float: right;
+    margin-right: 0.3%;
+}
